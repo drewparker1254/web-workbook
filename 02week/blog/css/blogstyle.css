@@ -1,0 +1,57 @@
+#favs {
+  float: left;
+  align-items: center;
+  width: 30%;
+  position: fixed;
+top: 300px;
+
+
+}
+
+#bio {
+  float:left;
+  align-items: center;
+  width: 30%;
+  position: fixed;
+
+
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 5px solid black;
+
+}
+
+.dates {
+  font-size: .75em;
+
+}
+
+img {
+  margin-left: 25px;
+}
+
+.stuff {
+  text-align: justify;
+}
+
+.post {
+  width: 50%;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid black
+
+}
+#main {
+  float: right;
+}
+h2 {
+  text-align: center;
+}
