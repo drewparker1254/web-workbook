@@ -1,0 +1,33 @@
+body {
+  background-color: #8B4513;
+}
+
+#header {
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 5px black solid;
+}
+
+#classes {
+  font-size: .9em;
+  font-family: sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+  border-bottom: 5px black solid;
+
+
+
+  }
+}
+h4 {
+  font-weight: bold;
+}
+
+#picture {
+
+clear: both;
+float: right;
+
+
+}

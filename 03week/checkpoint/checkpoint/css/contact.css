@@ -1,0 +1,30 @@
+body {
+  background-color: #8B4513;
+}
+
+#header {
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 5px black solid;
+}
+#form {
+font-size: .9em;
+font-family: sans-serif;
+margin-left: 525px;
+margin-right: 150px;
+margin-bottom: 150px;
+columns: 1;
+justify-content: center;
+
+}
+.bottom {
+  border-bottom: 5px black solid;
+}
+#bio {
+  font-size: .9em;
+  font-family: sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+  border-bottom: 5px black solid;
+}

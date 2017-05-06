@@ -1,0 +1,11 @@
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+img { border: 0; }
