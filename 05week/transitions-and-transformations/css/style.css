@@ -1,0 +1,70 @@
+.box {
+  position: relative;
+  left: 50%;
+  background: yellow;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+  .container {
+  border: 1px black solid;
+  margin: 100px;
+  width: 1000px;
+  height: 1000px;
+}
+.container:hover div:hover {
+  transform: scale(2);
+  animation-name: poop;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.container:hover div:not(:hover) {
+  transform: scale(.5);
+  animation-name: poop2;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes poop {
+  0% {
+        left:50%;
+        transform: rotate(20deg);
+  }
+  50% {
+    left: 70%;
+    transform: rotate(20deg);
+  }
+  75% {
+    left: 75%;
+    transform: rotate(180deg);
+  }
+  100% {
+        left:100%;
+        transform: rotate(360deg);
+  }
+}
+@keyframes poop2 {
+ 0% {
+      left:50%;
+      transform: rotate(-20deg);
+
+}
+50% {
+  left: 40%;
+  transform: rotate(-20deg);
+
+}
+75% {
+  left: 15%;
+  transform: rotate(-180deg);
+
+}
+100% {
+      left:0%;
+      transform: rotate(-360deg);
+
+}
+}
